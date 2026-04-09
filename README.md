@@ -4,8 +4,6 @@ Aplicação web desenvolvida com **React, TypeScript e Vite** com o objetivo de 
 
 O projeto apresenta conteúdos sobre comandos SQL fundamentais, permitindo que estudantes compreendam a sintaxe e a lógica das consultas ao banco de dados.
 
----
-
 # 🎯 Objetivo do Projeto
 
 O objetivo deste projeto é criar uma plataforma simples e didática para o aprendizado de SQL, abordando conceitos como:
@@ -16,8 +14,6 @@ O objetivo deste projeto é criar uma plataforma simples e didática para o apre
 * Explicações passo a passo
 
 A proposta é que o usuário consiga **aprender SQL de forma progressiva**, começando pelos conceitos mais básicos.
-
----
 
 # 🧠 Conteúdos de Aprendizado
 
@@ -39,8 +35,6 @@ Cada tópico apresenta:
 * imagens ilustrativas
 * demonstrações práticas
 
----
-
 # 🛠 Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -50,47 +44,14 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Vite** — ferramenta de build e desenvolvimento rápido
 * **TailwindCSS** — estilização moderna e responsiva
 
----
-
 # ⚡ Ambiente de Desenvolvimento
 
 O projeto utiliza **Vite**, que oferece um ambiente de desenvolvimento rápido com **Hot Module Replacement (HMR)**, permitindo atualização automática da interface durante o desenvolvimento.
-
----
-
-# 📂 Estrutura do Projeto
-
-Exemplo simplificado da organização de arquivos:
-
-```
-src
- ├── components
- │    ├── Header.tsx
- │    ├── Footer.tsx
- │
- ├── pages
- │    ├── Home.tsx
- │    ├── Documentation.tsx
- │
- ├── assets
- │
- ├── App.tsx
- └── main.tsx
-```
-
-Descrição:
-
-* **components** → componentes reutilizáveis da interface
-* **pages** → páginas de conteúdo do tutorial
-* **assets** → imagens e arquivos estáticos
-
----
 
 # ▶️ Como executar o projeto
 
 ### 1️⃣ Instalar dependências
 
-```
 npm install
 ```
 
@@ -106,8 +67,6 @@ O projeto estará disponível em:
 http://localhost:5173
 ```
 
----
-
 # 🚀 Futuras melhorias
 
 Algumas melhorias planejadas para o projeto incluem:
@@ -117,8 +76,6 @@ Algumas melhorias planejadas para o projeto incluem:
 * níveis de aprendizado
 * simulador de banco de dados
 * sistema de progresso do usuário
-
----
 
 # 📚 Público-alvo
 
