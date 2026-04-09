@@ -1,73 +1,129 @@
-# React + TypeScript + Vite
+# 📘 SQL Learning App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida com **React, TypeScript e Vite** com o objetivo de **ensinar SQL para iniciantes** por meio de explicações simples, exemplos visuais e exercícios práticos.
 
-Currently, two official plugins are available:
+O projeto apresenta conteúdos sobre comandos SQL fundamentais, permitindo que estudantes compreendam a sintaxe e a lógica das consultas ao banco de dados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🎯 Objetivo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo deste projeto é criar uma plataforma simples e didática para o aprendizado de SQL, abordando conceitos como:
 
-## Expanding the ESLint configuration
+* Consulta de dados
+* Estrutura básica de comandos SQL
+* Exemplos práticos de consultas
+* Explicações passo a passo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A proposta é que o usuário consiga **aprender SQL de forma progressiva**, começando pelos conceitos mais básicos.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 🧠 Conteúdos de Aprendizado
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+O projeto está estruturado para ensinar os principais comandos da linguagem SQL, como:
+
+* **SELECT** — recuperar dados de tabelas
+* **WHERE** — filtrar resultados
+* **ORDER BY** — ordenar dados
+* **LIMIT** — limitar quantidade de resultados
+* **INSERT** — inserir novos dados
+* **UPDATE** — atualizar registros
+* **DELETE** — remover registros
+* **JOIN** — relacionar tabelas
+
+Cada tópico apresenta:
+
+* explicação teórica
+* exemplos de consultas SQL
+* imagens ilustrativas
+* demonstrações práticas
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+* **React** — biblioteca para criação da interface
+* **TypeScript** — tipagem estática para maior segurança no código
+* **Vite** — ferramenta de build e desenvolvimento rápido
+* **TailwindCSS** — estilização moderna e responsiva
+
+---
+
+# ⚡ Ambiente de Desenvolvimento
+
+O projeto utiliza **Vite**, que oferece um ambiente de desenvolvimento rápido com **Hot Module Replacement (HMR)**, permitindo atualização automática da interface durante o desenvolvimento.
+
+---
+
+# 📂 Estrutura do Projeto
+
+Exemplo simplificado da organização de arquivos:
+
+```
+src
+ ├── components
+ │    ├── Header.tsx
+ │    ├── Footer.tsx
+ │
+ ├── pages
+ │    ├── Home.tsx
+ │    ├── Documentation.tsx
+ │
+ ├── assets
+ │
+ ├── App.tsx
+ └── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Descrição:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **components** → componentes reutilizáveis da interface
+* **pages** → páginas de conteúdo do tutorial
+* **assets** → imagens e arquivos estáticos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+# ▶️ Como executar o projeto
+
+### 1️⃣ Instalar dependências
+
 ```
+npm install
+```
+
+### 2️⃣ Executar o projeto
+
+```
+npm run dev
+```
+
+O projeto estará disponível em:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🚀 Futuras melhorias
+
+Algumas melhorias planejadas para o projeto incluem:
+
+* sistema de **exercícios interativos de SQL**
+* verificação automática de respostas
+* níveis de aprendizado
+* simulador de banco de dados
+* sistema de progresso do usuário
+
+---
+
+# 📚 Público-alvo
+
+Este projeto é voltado principalmente para:
+
+* iniciantes em **banco de dados**
+* estudantes de **programação**
+* pessoas que desejam aprender **SQL do zero**
